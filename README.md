@@ -36,19 +36,21 @@ Sistema comparativo de modelos de visión artificial para el reconocimiento prec
 
 ### 🎯 **YOLOv11 (3 Versiones)**
 | Versión          | Épocas | Tamaño Imagen | Pre-entrenamiento | 
-|-------------------|--------|---------------|-------------------|
+|------------------|--------|---------------|-------------------|
 | Básica           | 50     | 224px         | No                |
-| Optimizada       | 50     | 224px         | Sí               |
-| Avanzada         | 100    | 320px         | Sí               |
+| Optimizada       | 50     | 224px         | Sí                |
+| Avanzada         | 100    | 320px         | Sí                |
 
 ## 📊 Resultados Clave
 Análisis comparativo en 20 imágenes de test:
 
-| Modelo       | Precisión | Tiempo/Imagen | Hardware Requerido |
-|--------------|-----------|---------------|--------------------|
-| Paligemma    | 85%       | 1.2s          | GPU                |
-| EasyOCR      | 78%       | 0.4s          | CPU                |
-| YOLO Básico  | 82% mAP   | 0.15s         | GPU                |
-| YOLO Optimizado|       |      |     |
-| YOLO Avanzado| 91% mAP   | 0.18s         | GPU                |
+| Modelo       | Precisión Absoluta| Precisión Relativa| Tiempo/Imagen | Hardware Requerido |
+|--------------|-------------------|-------------------|---------------|--------------------|
+| Paligemma    | 35%               | 66%               |0.32s          | GPU                |
+| EasyOCR      | 0%                | 0%                |0.17s          | CPU                |
+| YOLO Básico  | 40%               | 83.19%            |0.04s          | GPU                |
+| YOLO Optimizado|   50%           |   90,27%          |0.05s          | GPU                |
+|YOLO Avanzado | 60%%              |92.04%             |0.04s          | GPU                |
+
+**Para hallar un análisis más complejo se puede consultar el excel "Comparativas.xlsx"**
 
