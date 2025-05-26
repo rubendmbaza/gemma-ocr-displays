@@ -49,5 +49,6 @@ Análisis comparativo en 20 imágenes de test:
 | Paligemma    | 85%       | 1.2s          | GPU                |
 | EasyOCR      | 78%       | 0.4s          | CPU                |
 | YOLO Básico  | 82% mAP   | 0.15s         | GPU                |
+| YOLO Optimizado|       |      |     |
 | YOLO Avanzado| 91% mAP   | 0.18s         | GPU                |
 
