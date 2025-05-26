@@ -9,12 +9,12 @@ El notebook de Colab no se visualiza correctamente en GitHub debido a un error c
 2. **Ábrelo** desde tu cuenta de Google Colab  
 3. **Introduce** tu Token de HuggingFace cuando sea requerido (se encuentra comentado en el texto, por lo que la celda en sí no da error) 
 
----
-
 ## 🔄 Reentrenamiento personalizado  
 Si deseas realizar el entrenamiento desde cero:  
 1. Elimina las carpetas `yolo-...` después de ejecutar `!git clone`  
 2. Sigue los pasos del notebook  
+
+---
 
 # 🚀 Sistema de Reconocimiento de Displays 7 Segmentos
 Correspondiente al Notebook "trabajo_final_bueno.ipynb"
