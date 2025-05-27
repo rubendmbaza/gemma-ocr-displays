@@ -24,7 +24,7 @@ Sistema comparativo de modelos de visión artificial para el reconocimiento prec
 
 ## 🛠 Modelos Implementados
 
-### 🦉 **Google Paligemma**
+### 🦉 **Google Paligemma 3b**
 - Modelo multimodal (visión + lenguaje)
 - Reconocimiento mediante prompts naturales
 - Zero-shot learning
