@@ -31,8 +31,8 @@ Sistema comparativo de modelos de visión artificial para el reconocimiento prec
 
 ### 🔠 **EasyOCR**
 - Pipeline clásico de dos etapas:
-  1. Detección de caracteres con YOLO
-  2. Reconocimiento OCR individual
+  1. Detección clásica sin Fine-Tunning
+  2. Detección de caracteres con YOLO haciendo un reconocimiento OCR individual
 
 ### 🎯 **YOLOv11 (3 Versiones)**
 | Versión          | Épocas | Tamaño Imagen | Pre-entrenamiento | 
@@ -50,7 +50,7 @@ Análisis comparativo en 20 imágenes de test:
 | EasyOCR      | 0%                | 0%                |0.17s          | CPU                |
 | YOLO Básico  | 40%               | 83.19%            |0.04s          | GPU                |
 | YOLO Optimizado|   50%           |   90,27%          |0.05s          | GPU                |
-|YOLO Avanzado | 60%%              |92.04%             |0.04s          | GPU                |
+|YOLO Avanzado | 60 %              |92.04%             |0.04s          | GPU                |
 
 **Para hallar un análisis más complejo se puede consultar el excel "Comparativas.xlsx"**
 
